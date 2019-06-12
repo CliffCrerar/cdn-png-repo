@@ -1,0 +1,1 @@
+{"version":2,"name":"optipng","builds":[{"src":"showcase.png","use":"@now/optipng"}]}
