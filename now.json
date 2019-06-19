@@ -7,6 +7,8 @@
         { "src": "./sql_logo_1.png", "use": "@now/optipng" },
         { "src": "./sql_logo_2.png", "use": "@now/optipng" },
         { "src": "./sql_logo_3.png", "use": "@now/optipng" },
-        { "src": "./sql_logo_4.png", "use": "@now/optipng" }
+        { "src": "./sql_logo_4.png", "use": "@now/optipng" },
+        { "src": "./cloudsql-server.png", "use": "@now/optipng" },
+        { "src": "./cloudsql.png", "use": "@now/optipng" }
     ]
 }
