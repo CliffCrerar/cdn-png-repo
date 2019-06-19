@@ -1,8 +1,12 @@
-{"version":2,"name":"optipng","builds":[
-{"src":"./showcase.png","use":"@now/optipng"},
-{"src":"./asset1-sql.png","use":"@now/optipng"},
-{"src":"./sql_logo_1.png","use":"@now/optipng"},
-{"src":"./sql_logo_w-2.png","use":"@now/optipng"},
-{"src":"./sql_logo_w-3.png","use":"@now/optipng"},
-{"src":"./sql_logo_w-5.png","use":"@now/optipng"}
-]}
+{
+    "version": 2,
+    "name": "optipng",
+    "builds": [
+        { "src": "./showcase.png", "use": "@now/optipng" },
+        { "src": "./asset1-sql.png", "use": "@now/optipng" },
+        { "src": "./sql_logo_1.png", "use": "@now/optipng" },
+        { "src": "./sql_logo_2.png", "use": "@now/optipng" },
+        { "src": "./sql_logo_3.png", "use": "@now/optipng" },
+        { "src": "./sql_logo_4.png", "use": "@now/optipng" }
+    ]
+}
