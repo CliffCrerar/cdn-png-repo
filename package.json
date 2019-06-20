@@ -1,0 +1,20 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "image for the web",
+    "main": "none",
+    "scripts": {
+        "test": "test1",
+        "start": "node scripts/createnow.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CliffCrerar/zeit-optipng-with-now.git"
+    },
+    "author": "Cliff Crerar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CliffCrerar/zeit-optipng-with-now/issues"
+    },
+    "homepage": "https://github.com/CliffCrerar/zeit-optipng-with-now#readme"
+}
