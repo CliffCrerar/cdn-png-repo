@@ -3,7 +3,51 @@
     "name": "zeit-optipng-server-01",
     "alias": "image-server-one",
     "builds": [ {
-            "src": "./learnsql/*",
+            "src": "./learnsql/asset1-sql.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/sql_logo_1.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/sql_logo_2.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/sql_logo_3.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/sql_logo_4.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/cloudsql-server.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/cloudsql.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/Greenshot-01.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/RE1Di7J.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/RE1Edku.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/RE1Edkw.png",
+            "use": "@now/optipng"
+        },
+        {
+            "src": "./learnsql/RE1EnVc.png",
             "use": "@now/optipng"
         },
         {

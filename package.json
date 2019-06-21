@@ -5,7 +5,8 @@
     "main": "none",
     "scripts": {
         "test": "test1",
-        "start": "node scripts/createnow.js"
+        "start": "node scripts/createnow.js",
+        "scan": "node scripts/scanfolders.js"
     },
     "repository": {
         "type": "git",
