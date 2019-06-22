@@ -3,63 +3,27 @@
     "name": "zeit-optipng-server-01",
     "alias": "image-server-one",
     "builds": [ {
-            "src": "./learnsql/*",
+            "src": "./learnsql/*.png",
             "use": "@now/optipng"
         },
         {
-            "src": "./material-next/nextjs/nextmedium.png",
+            "src": "./material-next/nextjs/*.png",
             "use": "@now/optipng"
         },
         {
-            "src": "./material-next/nextjs/nextnormal.png",
+            "src": "./material-next/markdown/*.png",
             "use": "@now/optipng"
         },
         {
-            "src": "./material-next/nextjs/nextsmall.png",
+            "src": "./material-next/bootstrap/*.png",
             "use": "@now/optipng"
         },
         {
-            "src": "./material-next/markdown/markdown-fp-normal.png",
+            "src": "./material-next/materialcss/*.png",
             "use": "@now/optipng"
         },
         {
-            "src": "./material-next/markdown/markdown-fp-small.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/markdown/markdown-fp-smaller.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/bootstrap/bootstrap.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/bootstrap/bootstrap.svg",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/materialcss/material-goals.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/materialcss/materialize.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/materialcss/materialize.svg",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/mylogo/cc-logo-1.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/mylogo/cc-logo-2.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/mylogo/cc-logo-flat.png",
+            "src": "./material-next/mylogo/*.png",
             "use": "@now/optipng"
         }
     ]
