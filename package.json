@@ -1,12 +1,9 @@
 {
-    "name": "y",
+    "name": "image-assets",
     "version": "1.0.0",
-    "description": "image for the web",
-    "main": "none",
+    "description": "serverless static images",
     "scripts": {
-        "test": "test1",
-        "start": "node scripts/createnow.js",
-        "scan": "node scripts/scanfolders.js"
+        "start": "now dev"
     },
     "repository": {
         "type": "git",

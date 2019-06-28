@@ -2,29 +2,8 @@
     "version": 2,
     "name": "zeit-optipng-server-01",
     "alias": "image-server-one",
-    "builds": [ {
-            "src": "./learnsql/*.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/nextjs/*.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/markdown/*.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/bootstrap/*.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/materialcss/*.png",
-            "use": "@now/optipng"
-        },
-        {
-            "src": "./material-next/mylogo/*.png",
-            "use": "@now/optipng"
-        }
-    ]
+    "builds": [{
+        "src": "**/*.png",
+        "use": "@now/optipng"
+    }]
 }
