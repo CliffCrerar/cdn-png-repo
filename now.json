@@ -10,6 +10,6 @@
         "use": "@now/static"
     }],
     "routes": [
-        { "src": "/", "dest": "www", "methods": ["GET"] }
+        { "src": "/someother", "dest": "www", "methods": ["GET"] }
     ]
 }
