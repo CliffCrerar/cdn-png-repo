@@ -5,5 +5,8 @@
     "builds": [{
         "src": "**/*.png",
         "use": "@now/optipng"
-    }]
+    }],
+    "routes": [
+        { "src": "/", "dest": "www", "methods": ["GET"] }
+    ]
 }
