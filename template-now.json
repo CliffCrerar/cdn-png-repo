@@ -5,6 +5,9 @@
     "builds": [{
         "src": "**/*.png",
         "use": "@now/optipng"
+    }, {
+        "src": "./**/*.*",
+        "use": "@now/static"
     }]
 }
 

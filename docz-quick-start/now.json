@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "cdn-docz-quick-starter",
+    "alias": "cdn-docz-quick-starter",
+    "builds": [{
+        "src": "**/*.png",
+        "use": "@now/optipng"
+    }, {
+        "src": "**/*.*",
+        "use": "@now/static"
+    }]
+}

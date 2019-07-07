@@ -5,5 +5,8 @@
     "builds": [{
         "src": "pg*/*.png",
         "use": "@now/optipng"
+    }, {
+        "src": "pg*/*.*",
+        "use": "@now/static"
     }]
 }
