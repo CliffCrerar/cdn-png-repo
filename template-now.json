@@ -1,0 +1,26 @@
+{
+    "version": 2,
+    "name": "",
+    "alias": "",
+    "builds": [{
+        "src": "**/*.png",
+        "use": "@now/optipng"
+    }]
+}
+
+
+// {
+//     "version": 2,
+//     "name": "zeit-optipng-server-01",
+//     "alias": "image-server-one",
+//     "builds": [{
+//         "src": "**/*.png",
+//         "use": "@now/optipng"
+//     }, {
+//         "src": "www",
+//         "use": "@now/static"
+//     }],
+//     "routes": [
+//         { "src": "/someother", "dest": "www", "methods": ["GET"] }
+//     ]
+// }2

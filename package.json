@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "serverless static images",
     "scripts": {
-        "start": "now dev"
+        "dev": "now dev",
+        "start": "node deploy"
     },
     "repository": {
         "type": "git",
@@ -14,5 +15,16 @@
     "bugs": {
         "url": "https://github.com/CliffCrerar/zeit-optipng-with-now/issues"
     },
-    "homepage": "https://github.com/CliffCrerar/zeit-optipng-with-now#readme"
+    "homepage": "https://github.com/CliffCrerar/zeit-optipng-with-now#readme",
+    "dependencies": {
+        "imagemin": "^7.0.0",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-optipng": "^7.0.0",
+        "imagemin-pngquant": "^8.0.0",
+        "jimp": "^0.6.4",
+        "optipng": "^2.1.0",
+        "optipng-bin": "^6.0.0",
+        "s3-website": "^3.3.0",
+        "uuid": "^3.3.2"
+    }
 }

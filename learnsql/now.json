@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "name": "cdn-learnsql",
+    "alias": "cdn-learnsql",
+    "builds": [{
+        "src": "pg*/*.png",
+        "use": "@now/optipng"
+    }]
+}
