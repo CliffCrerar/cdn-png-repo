@@ -1,0 +1,11 @@
+{
+  "name": "misc-files",
+  "version": "1.0.0",
+  "description": "misc file server",
+  "main": "now.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cliff Crerar",
+  "license": "MIT"
+}
